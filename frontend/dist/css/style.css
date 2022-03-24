@@ -68,3 +68,14 @@ ul > li
 }
 
 
+
+/* Werken bij CSS  */
+form{
+    z-index: 2;
+}
+#Motivatie {
+    resize: none;
+  }
+/*  Einde Werken bij CSS  */
+
+
