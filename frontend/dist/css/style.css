@@ -39,22 +39,27 @@ nav {
 }
 .nav-link{
     background-color: var(--main-colour);
-    border: none;
-    border-right: 3px #730202 solid;
+    border-left: 1px #730202 solid;
+    border-right: 1px #730202 solid;
     color: black;
     font-weight: bolder;
 }
-.nav-link:hover, .nav-link:last-child:hover{
-    border: none;
+.nav-link:hover, .nav-link:first-child:hover, .nav-link:last-child:hover{
+    
     background-color: #4E8668;
-    border-left:2px white solid;
-    border-right:2px white solid;
+    border-left:1px white solid;
+    border-right:1px white solid;
     color: white;
 }
 .nav-link:last-child {
-    border: none;
+    border-right: 1px #F29F05 solid;
+    border-left: 1px #730202 solid;
 }
-#footer{
+.nav-link:first-child {
+    border-left: 1px #F29F05 solid;
+    border-right: 1px #730202 solid;
+}
+footer{
     background-color: #796770;
     color: #ffffff;
     font-size: 12px;
@@ -63,7 +68,7 @@ ul > li
 {
     list-style-type: none;
 }
-#footer > div > ul {
+#foot > div > ul {
     display: inline-block;
 }
 
@@ -72,6 +77,9 @@ ul > li
 /* Werken bij CSS  */
 form{
     z-index: 2;
+}
+.content {
+    z-index: 1;
 }
 #Motivatie {
     resize: none;
