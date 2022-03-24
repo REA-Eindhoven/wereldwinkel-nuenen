@@ -74,4 +74,7 @@ ul > li
 form{
     z-index: 2;
 }
+.content {
+    z-index: 1;
+}
 
