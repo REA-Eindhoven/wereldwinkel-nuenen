@@ -66,5 +66,7 @@ ul > li
 #footer > div > ul {
     display: inline-block;
 }
-
+form{
+    z-index: 2;
+}
 
