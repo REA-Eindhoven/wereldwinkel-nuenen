@@ -71,10 +71,19 @@ ul > li
 #foot > div > ul {
     display: inline-block;
 }
+
+
+
+/* Werken bij CSS  */
 form{
     z-index: 2;
 }
 .content {
     z-index: 1;
 }
+#Motivatie {
+    resize: none;
+  }
+/*  Einde Werken bij CSS  */
+
 
