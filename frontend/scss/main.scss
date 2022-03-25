@@ -26,6 +26,15 @@ form{
 #Motivatie {
     resize: none;
   }
+  .accordion-button {
+      background-color: $oran;
+      opacity: 70%;
+    font-weight: bolder;
+  }
+  .accordion-item {
+      background-color: $yell;
+      opacity: 70%;
+  }
 .MensenFunctie,.MensenFunctie>li>ul {
     list-style-type: none;
 }
