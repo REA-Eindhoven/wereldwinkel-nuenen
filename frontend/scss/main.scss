@@ -42,9 +42,17 @@ form{
 .MensenFunctie,.MensenFunctie>li>ul {
     list-style-type: none;
 }
+<<<<<<< HEAD
 
 .imgText
 {
     background-color: $oran;
     color: $dark;
 }
+=======
+.accordion-button:not(.collapsed) {
+    color: $dark;
+    background-color: $oran;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+>>>>>>> 86c277ccaf13ec25ad60fa34a3e69dcbc6466ac8
