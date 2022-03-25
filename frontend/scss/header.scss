@@ -1,0 +1,34 @@
+#header{
+    background-image: url("../dist/images/R.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+nav {
+    background-color: $oran;
+    border: none;
+}
+.nav-link {
+    color:$text;
+    background-color: $oran;
+    border: none;
+    border-right: 3px $dark-red solid;
+    font-weight: bolder;
+
+    &:last-child {
+        border: none;
+    }
+}
+.active, .nav-link:hover, .nav-link:last-child:hover
+{
+    border: none;
+    color: $light !important;
+    background-color: $main;
+    border-left:2px $light solid;
+    border-right:2px $light solid;
+}
+
+ul > li
+{
+    list-style-type: none;
+}
