@@ -3,6 +3,11 @@
     background-color: $footer;
     font-size: 12px;
 }
-#footer > div > ul {
+#foot > div > ul {
     display: inline-block;
+}
+
+#foot ul > li
+{
+    list-style-type: none;
 }
