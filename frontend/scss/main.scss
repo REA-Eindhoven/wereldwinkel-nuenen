@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    
+}
+.container{
+    box-shadow: 0 20px 20px 20px grey;
+}
+.accordion {
+    padding-top: 250px;
+}
+
+.content
+{
+    z-index: 1;
+}
+
+form{
+    z-index: 2;
+}
+#Motivatie {
+    resize: none;
+  }
