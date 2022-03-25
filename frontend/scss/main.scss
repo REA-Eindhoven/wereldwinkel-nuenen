@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+h2, label, input
+{
+    color: $main;
+}
+
 .main {
     position: relative;
     
