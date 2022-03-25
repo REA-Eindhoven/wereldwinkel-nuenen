@@ -37,3 +37,8 @@ form{
 .MensenFunctie,.MensenFunctie>li>ul {
     list-style-type: none;
 }
+.accordion-button:not(.collapsed) {
+    color: $dark;
+    background-color: $oran;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
