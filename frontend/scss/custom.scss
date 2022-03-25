@@ -2,15 +2,29 @@
 @import "bootstrap/scss/variables";
 
 $theme-colors: (
-  "primary":    $indigo,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
+  "light":        $white,
+  "dark":         $black
 );
 
+$main:         #4E8668;
+$oran:         #F29F05;
+$yell:         #F2E205;
+$text:         #796770;
+$dark-oran:    #F24405;
+$dark-red:     #730202;
+
+$theme-colors:map-merge($theme-colors, (
+  "main":       $main,
+  "oran":       $oran,
+  "yell":       $yell,
+  "text":       $text,
+  "dark-oran":  $dark-oran,
+  "dark-red":   $dark-red
+));
+
+
 @import "bootstrap";
+@import "background";
+@import "header";
+@import "footer";
 @import "main";

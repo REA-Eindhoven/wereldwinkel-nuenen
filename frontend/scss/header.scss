@@ -1,0 +1,38 @@
+#header{
+    background-image: url("../dist/images/R.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+nav {
+    background-color: $oran;
+    border: none;
+}
+.nav-link {
+    color:$text;
+    background-color: $oran;
+    border: none;
+    border-right: 1px $dark-red solid;
+    border-left: 1px $dark-red solid;
+    font-weight: bolder;
+
+    &:last-child {
+        border-right: 1px $oran solid;
+    }
+    &:first-child {
+        border-left: 1px $oran solid;
+    }
+}
+.active-nav, .active-nav:first-child, .active-nav:last-child, .nav-link:hover, .nav-link:first-child:hover, .nav-link:last-child:hover
+{
+    border: none;
+    color: $light !important;
+    background-color: $main;
+    border-left:1px $light solid;
+    border-right:1px $light solid;
+}
+
+ul > li
+{
+    list-style-type: none;
+}
