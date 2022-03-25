@@ -9,7 +9,6 @@ nav {
     border: none;
 }
 .nav-link {
-    color:$dark;
     background-color: $oran;
     border: none;
     border-right: 1px $dark-red solid;
@@ -23,6 +22,10 @@ nav {
         border-left: 1px $oran solid;
     }
 }
+.navbar-light .navbar-nav .nav-link {
+    color: $dark;
+}
+
 .active-nav, .active-nav:first-child, .active-nav:last-child, .nav-link:hover, .nav-link:first-child:hover, .nav-link:last-child:hover
 {
     border: none;
