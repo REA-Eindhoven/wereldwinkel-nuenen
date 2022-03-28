@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+h2, label, input
+{
+    color: $main;
+}
+
 .main {
     position: relative;
     
@@ -37,8 +42,20 @@ form{
 .MensenFunctie,.MensenFunctie>li>ul {
     list-style-type: none;
 }
+
+.imgText
+{
+    background-color: $oran;
+    color: $dark;
+}
 .accordion-button:not(.collapsed) {
     color: $dark;
     background-color: $oran;
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.prodimg
+{
+    width: 75%;
+    height: 75%;
 }
