@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-h2, label, input
+h1, h2, label, input
 {
     color: $main;
 }
@@ -71,4 +71,14 @@ form{
 {
     color: $dark;
     font-size: 1.5em;
+}
+
+.imgBorder
+{
+    border: 3px $dark solid
+}
+
+.imgBorder > img
+{
+    object-fit: cover;
 }
