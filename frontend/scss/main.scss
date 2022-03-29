@@ -60,7 +60,7 @@ form{
     max-height: 33.33%;
 }
 
-.prodimg a img
+.prodimg a img, .imgBorder > img
 {
     width: 100%;
     height: 100%;
@@ -76,9 +76,4 @@ form{
 .imgBorder
 {
     border: 3px $dark solid
-}
-
-.imgBorder > img
-{
-    object-fit: cover;
 }
