@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-h2, label, input
+h1, h2, label, input
 {
     color: $main;
 }
@@ -60,9 +60,25 @@ form{
     max-height: 33.33%;
 }
 
-.prodimg img
+.prodimg a img
 {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+
+.prodimg a
+{
+    color: $dark;
+    font-size: 1.5em;
+}
+
+.imgBorder
+{
+    border: 3px $dark solid
+}
+
+.imgBorder > img
+{
     object-fit: cover;
 }
