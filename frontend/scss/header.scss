@@ -23,16 +23,46 @@ nav {
         border-left: 1px $oran solid;
     }
 }
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link, .ddl li a{
     color: $dark;
+    text-decoration: none;
 }
 
 .active-nav, .active-nav:first-child, .active-nav:last-child, .nav-link:hover, .nav-link:first-child:hover, .nav-link:last-child:hover
 {
     border: none;
     color: $light !important;
-    background-color: $main;
+    background-color: $footer;
     border-left:1px $light solid;
     border-right:1px $light solid;
 }
 
+.ddl li:hover, .ddl li:last-of-type:hover
+{
+    border: none;
+    color: $light !important;
+    background-color: $footer;
+    border-top:1px $light solid;
+    border-bottom:1px $light solid;
+}
+
+.ddl
+{
+    padding-left: 0;
+    position: absolute;
+    text-align: center;
+    list-style-type: none;
+    background-color: $oran;
+}
+
+.ddl li
+{
+    border-top: 1px $dark-red solid;
+    border-bottom: 1px $dark-red solid;
+    padding: 3.6%;
+}
+
+.ddl li:last-of-type
+{
+    border-bottom: none;
+}
