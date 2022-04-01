@@ -8,8 +8,10 @@ nav {
     background-color: $oran;
     border: none;
 }
-.nav-link {
+.nav-item {
     background-color: $oran;
+    color: $dark !important;
+    text-align: center;
     border: none;
     border-right: 1px $dark-red solid;
     border-left: 1px $dark-red solid;
@@ -23,46 +25,58 @@ nav {
         border-left: 1px $oran solid;
     }
 }
-.navbar-light .navbar-nav .nav-link, .ddl li a{
+.navbar-light .navbar-nav .nav-link, .ddl{
     color: $dark;
     text-decoration: none;
 }
 
-.active-nav, .active-nav:first-child, .active-nav:last-child, .nav-link:hover, .nav-link:first-child:hover, .nav-link:last-child:hover
+
+
+.active-nav, .active-nav:first-child, .active-nav:last-child,.nav-item:hover, .nav-item:first-child:hover, .nav-item:last-child:hover
 {
     border: none;
-    color: $light !important;
-    background-color: $footer;
+    background-color: $footer !important; 
     border-left:1px $light solid;
     border-right:1px $light solid;
 }
 
-.ddl li:hover, .ddl li:last-of-type:hover
-{
-    border: none;
+.nav-item:hover > a, .active-nav a {
     color: $light !important;
-    background-color: $footer;
-    border-top:1px $light solid;
-    border-bottom:1px $light solid;
 }
 
-.ddl
-{
-    padding-left: 0;
-    position: absolute;
-    text-align: center;
-    list-style-type: none;
+
+.dropdown-item
+{   
     background-color: $oran;
-}
-
-.ddl li
-{
+    color: $dark !important;
+    text-align: center;
+    border: none;
     border-top: 1px $dark-red solid;
     border-bottom: 1px $dark-red solid;
-    padding: 3.6%;
+    
+
+    &:last-child {
+        border-bottom: 1px $oran solid;
+    }
 }
 
-.ddl li:last-of-type
+.dropdown-item:hover
 {
-    border-bottom: none;
+    border: none;
+    background-color: $footer !important; 
+    border-bottom:1px $light solid;
+    border-top:1px $light solid;
+    color: $light !important;
 }
+
+
+.dropdown-menu{
+    box-shadow: 5px 5px 20px gray;
+}
+
+.navbar .nav-item .dropdown-menu{ display: none; }
+.navbar .nav-item:hover .nav-link{   }
+.navbar .nav-item:hover .dropdown-menu{ 
+        display: flex; 
+    }
+.navbar .nav-item .dropdown-menu{ margin-top:0; }
