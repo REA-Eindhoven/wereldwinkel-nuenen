@@ -40,7 +40,7 @@ nav {
     border-right:1px $light solid;
 }
 
-.nav-item:hover > a, .active-nav a {
+.nav-item:hover > a, .active-nav > a {
     color: $light !important;
 }
 
