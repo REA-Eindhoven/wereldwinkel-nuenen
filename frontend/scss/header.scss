@@ -25,7 +25,7 @@ nav {
         border-left: 1px $oran solid;
     }
 }
-.navbar-light .navbar-nav .nav-link, .ddl{
+.nav-link{
     color: $dark;
     text-decoration: none;
 }
@@ -44,8 +44,7 @@ nav {
     color: $light !important;
 }
 
-
-.dropdown-item
+.dropdown-item, .mob-menu
 {   
     background-color: $oran;
     color: $dark !important;
@@ -54,13 +53,18 @@ nav {
     border-top: 1px $dark-red solid;
     border-bottom: 1px $dark-red solid;
     
+    &:first-child
+    {
+        border-left: none;
+    }
 
     &:last-child {
         border-bottom: 1px $oran solid;
     }
 }
 
-.dropdown-item:hover
+
+.dropdown-item:hover, .mob-menu:hover, .mob-menu:hover:first-child, .mob-menu:hover:last-child, .active-nav-mob
 {
     border: none;
     background-color: $footer !important; 
@@ -79,3 +83,16 @@ nav {
         display: flex; 
     }
 .navbar .nav-item .dropdown-menu{ margin-top:0; }
+
+.navbar-toggler
+{
+    width: 10%;
+    height: 10%;
+}
+
+.hamburg
+{
+    width: 50%;
+    height: 50%;
+    fill: $main;
+}
