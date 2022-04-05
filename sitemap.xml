@@ -3,36 +3,60 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             <url>
                 <loc>index.html<loc>
-                <changefreq>weekly</changefreq>
+                <changefreq>monthly</changefreq>
                 <priority>1</priority>
                 <lastmod>2022-04-05 10:20:00 </lastmod>
             </url >
             <url>
-                <loc>contentpagina/index.html</loc>
+                <loc>pages/Contact.html</loc>
                 <priority>0.7</priority>
-                <changefreq>weekly</changefreq>
+                <changefreq>yearly</changefreq>
                 <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
             <url>
-                <loc>sitemap/index.html</loc>
-                <priority>0.2</priority>
-                <changefreq>weekly</changefreq>
+                <loc>pages/fairtrade.html</loc>
+                <priority>0.8</priority>
+                <changefreq>monthly</changefreq>
                    <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
             <url>
-                <loc>algemene-pagina/index.html</loc>
-                <priority>0.1</priority>
-                <changefreq>weekly</changefreq>
+                <loc>pages/faq.html</loc>
+                <priority>0.4</priority>
+                <changefreq>monthly</changefreq>
                   <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
             <url>
-                <loc>contact/index.html</loc>
+                <loc>pages/over-ons.html</loc>
                 <priority>0.6</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>pages/privacy.html</loc>
+                <priority>0.3</priority>
+                <changefreq>yearly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>pages/products.html</loc>
+                <priority>0.8</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>pages/Projecten.html</loc>
+                <priority>0.5</priority>
                 <changefreq>weekly</changefreq>
                 <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
             <url>
-                <loc>google-maps/index.html</loc>
+                <loc>pages/template.html</loc>
+                <priority>0.1</priority>
+                <changefreq>yearly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>pages/werken-bij.html</loc>
                 <priority>0.5</priority>
                 <changefreq>weekly</changefreq>
                 <lastmod>2022-04-05 10:20:00 </lastmod>
