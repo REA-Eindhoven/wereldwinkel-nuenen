@@ -82,5 +82,12 @@ form{
 {
     object-fit: cover;
 }
-
+#toProducts {
+    color: $main;
+    border: 3px $main solid;
+    border-radius: 30px;
+    background: none;
+    font-weight: bolder;
+    text-decoration: none;
+}
 
