@@ -1,0 +1,65 @@
+      
+<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+            <url>
+                <loc>index.html<loc>
+                <changefreq>monthly</changefreq>
+                <priority>1</priority>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url >
+            <url>
+                <loc>pages/Contact.html</loc>
+                <priority>0.7</priority>
+                <changefreq>yearly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>pages/fairtrade.html</loc>
+                <priority>0.8</priority>
+                <changefreq>monthly</changefreq>
+                   <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>pages/faq.html</loc>
+                <priority>0.4</priority>
+                <changefreq>monthly</changefreq>
+                  <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>pages/over-ons.html</loc>
+                <priority>0.6</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>pages/privacy.html</loc>
+                <priority>0.3</priority>
+                <changefreq>yearly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>pages/products.html</loc>
+                <priority>0.8</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>pages/Projecten.html</loc>
+                <priority>0.5</priority>
+                <changefreq>weekly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>pages/template.html</loc>
+                <priority>0.1</priority>
+                <changefreq>yearly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>pages/werken-bij.html</loc>
+                <priority>0.5</priority>
+                <changefreq>weekly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+    </urlset>
+ 
