@@ -91,3 +91,13 @@ form{
     text-decoration: none;
 }
 
+
+.prodText:nth-child(odd)
+{
+    padding-right: 5%;
+}
+
+.prodText:nth-child(even)
+{
+    padding-left: 5%;
+}
