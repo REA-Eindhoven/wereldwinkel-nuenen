@@ -2,64 +2,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             <url>
-                <loc>index.html<loc>
+                <loc>src/index.html<loc>
                 <changefreq>monthly</changefreq>
                 <priority>1</priority>
                 <lastmod>2022-04-05 10:20:00 </lastmod>
             </url >
             <url>
-                <loc>pages/Contact.html</loc>
+                <loc>src/pages/Contact.html</loc>
                 <priority>0.7</priority>
                 <changefreq>yearly</changefreq>
                 <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
             <url>
-                <loc>pages/fairtrade.html</loc>
+                <loc>src/pages/fairtrade.html</loc>
                 <priority>0.8</priority>
                 <changefreq>monthly</changefreq>
                    <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
             <url>
-                <loc>pages/faq.html</loc>
+                <loc>src/pages/faq.html</loc>
                 <priority>0.4</priority>
                 <changefreq>monthly</changefreq>
                   <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
             <url>
-                <loc>pages/over-ons.html</loc>
+                <loc>src/pages/over-ons.html</loc>
                 <priority>0.6</priority>
                 <changefreq>monthly</changefreq>
                 <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
             <url>
-                <loc>pages/privacy.html</loc>
+                <loc>src/pages/privacy.html</loc>
                 <priority>0.3</priority>
                 <changefreq>yearly</changefreq>
                 <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
             <url>
-                <loc>pages/products.html</loc>
+                <loc>src/pages/products.html</loc>
                 <priority>0.8</priority>
                 <changefreq>monthly</changefreq>
                 <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
             <url>
-                <loc>pages/Projecten.html</loc>
+                <loc>src/pages/Projecten.html</loc>
                 <priority>0.5</priority>
                 <changefreq>weekly</changefreq>
                 <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
             <url>
-                <loc>pages/template.html</loc>
+                <loc>src/pages/template.html</loc>
                 <priority>0.1</priority>
                 <changefreq>yearly</changefreq>
                 <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
             <url>
-                <loc>pages/werken-bij.html</loc>
+                <loc>src/pages/werken-bij.html</loc>
                 <priority>0.5</priority>
                 <changefreq>weekly</changefreq>
                 <lastmod>2022-04-05 10:20:00 </lastmod>
             </url>
+
+            <url>
+                <loc>src/pages/producten/food.html</loc>
+                <priority>0.7</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>src/pages/producten/geluk.html</loc>
+                <priority>0.7</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>   
+            <url>
+                <loc>src/pages/producten/interieur.html</loc>
+                <priority>0.7</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            <url>
+                <loc>src/pages/producten/kind-product.html</loc>
+                <priority>0.7</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+
+            <url>
+                <loc>src/pages/producten/kunst.html</loc>
+                <priority>0.7</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+
+            <url>
+                <loc>src/pages/producten/mand.html</loc>
+                <priority>0.7</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url> 
+            <url>
+                <loc>src/pages/producten/sieraden-sjaals.html</loc>
+                <priority>0.7</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url> 
+                <url>
+                <loc>src/pages/producten/tuin.html</loc>
+                <priority>0.7</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>
+            </url> 
+                <url>
+                <loc>src/pages/producten/wierook.html</loc>
+                <priority>0.7</priority>
+                <changefreq>monthly</changefreq>
+                <lastmod>2022-04-05 10:20:00 </lastmod>
+            </url>                    
     </urlset>
  
