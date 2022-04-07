@@ -28,19 +28,26 @@ nav {
 .nav-link{
     color: $dark;
     text-decoration: none;
+
+    &.active, .active:first-child, .active:last-child
+    {
+        border: none;
+        background-color: $footer !important; 
+        border-left:1px $light solid;
+        border-right:1px $light solid;
+    }
 }
 
-
-
-.active-nav, .active-nav:first-child, .active-nav:last-child,.nav-item:hover, .nav-item:first-child:hover, .nav-item:last-child:hover
+.nav-item:hover, .nav-item:first-child:hover, .nav-item:last-child:hover
 {
     border: none;
     background-color: $footer !important; 
     border-left:1px $light solid;
     border-right:1px $light solid;
+
 }
 
-.nav-item:hover > a, .active-nav > a {
+.nav-item:hover > a{
     color: $light !important;
 }
 
