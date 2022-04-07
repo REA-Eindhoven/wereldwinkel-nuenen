@@ -1,0 +1,30 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$theme-colors: (
+  "light":        $white,
+  "dark":         $black
+);
+
+$main:         #4E8668;
+$oran:         #F29F05;
+$yell:         #F2E205;
+$footer:       #796770;
+$dark-oran:    #F24405;
+$dark-red:     #730202;
+
+$theme-colors:map-merge($theme-colors, (
+  "main":       $main,
+  "oran":       $oran,
+  "yell":       $yell,
+  "footer":     $footer,
+  "dark-oran":  $dark-oran,
+  "dark-red":   $dark-red
+));
+
+
+@import "bootstrap";
+@import "background";
+@import "header";
+@import "footer";
+@import "main";
