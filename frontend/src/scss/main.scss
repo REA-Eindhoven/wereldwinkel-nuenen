@@ -57,7 +57,7 @@ form{
 .prodimg
 {
     margin-top: 5%;
-    max-height: 36vh;
+    height: 22vh;
 }
 
 .prodimg a img, .imgBorder > img
@@ -96,16 +96,6 @@ form{
     background-color: $main;
 }
 
-
-.prodText:nth-child(odd)
-{
-    padding-right: 5%;
-}
-
-.prodText:nth-child(even)
-{
-    padding-left: 5%;
-}
 .metaFB {
     background-color:rgba(242, 68, 5, 0.25);
 }
