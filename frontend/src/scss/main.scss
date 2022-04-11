@@ -99,3 +99,11 @@ form{
 .metaFB {
     background-color:rgba(242, 68, 5, 0.25);
 }
+.car-image {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+ .car-cont {
+     max-height: 230px;
+ }
