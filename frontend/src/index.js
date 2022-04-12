@@ -10,7 +10,14 @@ $(document).ready(function() {
     // Iterate through each of the links we fetched.
     $.each(allLinks, function(key, value) {
         if (value.href == document.URL) { // If the href attribute for this link matches the current page URL.
-            $(this).addClass("active"); // Adjust the HTML of the element and append a suffix to the end, or do anything else here as required.
+            if(screen.width > 768)
+            {
+                $(this).addClass("active");
+            }
+            else
+            {
+                $(this).addClass("active-nav-mob");               
+            }
         }
     });
 });
