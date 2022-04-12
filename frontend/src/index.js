@@ -10,9 +10,10 @@ $(document).ready(function() {
     // Iterate through each of the links we fetched.
     $.each(allLinks, function(key, value) {
         if (value.href == document.URL) { // If the href attribute for this link matches the current page URL.
-            if(screen.width > 768)
+            if(window.innerWidth > 992)
             {
                 $(this).addClass("active");
+                console.log(window.innerWidth)
             }
             else
             {
