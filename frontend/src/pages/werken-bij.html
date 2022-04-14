@@ -18,8 +18,10 @@
     <meta name="description" content="Kom jij ook werken bij de Wereld Winkel Nuenen?">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Put this script before end of head tag -->
+    <script src="https://formsend.com/form.js"></script>
 </head>
-</head>
+
 
 <body>
     <div class="container bg-light p-0 mb-5">
@@ -73,9 +75,33 @@
                         <input class="mt-4 rounded-3 p-3  border border-main  border-4 h3 p-3 btn"
                             type="submit" value="Versturen">
                     </form>
+                    
+                    <script>
+                    window.addEventListener("load", function() {
+                     document.getElementById('sollicitatie').addEventListener("submit", function(e) {
+                       e.preventDefault();
+                       Form.send({ 
+                          debug: true, // window.alert for testing
+                          form: e.target, // form DOM element
+                          notify: 'rodekoe1@gmail.com',
+                          key: "public-8335587037f53a", // your unique public key
+                          subject: 'Solicitatie', // Customize notification email subject
+                          source: 'website.com', // Customize submission source, Default is window.location.origin
+                          success: function(res) {
+                            alert(res.message)
+                          }, // success callback function
+                          error: function(err) {
+                            alert(err.message)
+                          } // error callback function
+                        }) 
+                    
+                      })
+                    });
+                    </script>
                 </div>
                 </div>
             </div>
+
             </section>
             <%= require('html-loader!../partials/footer.html').default %>
     </div>
