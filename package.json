@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "dotenv-webpack": "^7.1.0"
+  }
+}

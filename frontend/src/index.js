@@ -35,4 +35,20 @@ $(document).ready(function() {
             }
         }
     });
+    if ($('#facebook').length){
+        $.ajax("https://graph.facebook.com/me?fields=id,name,posts{full_picture,message,story,permalink_url}",
+        {
+            headers: {
+                Authorization: `Bearer ${process.env.FACEBOOK_TOKEN}`
+            },
+            dataType: 'json'
+        })
+        $(document).ajaxSuccess(function(event, xhr) {
+            const data = JSON.parse(xhr.responseText) 
+            $('#facebook').find('img').attr('src', data.posts.data[0].full_picture);
+            $('#facebook').find('blockquote').html(data.posts.data[0].message);
+          });
+          
+    }
+
 });

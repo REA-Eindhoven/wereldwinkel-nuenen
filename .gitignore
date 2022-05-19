@@ -1,5 +1,5 @@
 .vscode/
 vendor/
 .DS_Store
-
+.env
 node_modules/
